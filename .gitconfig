@@ -1,0 +1,15 @@
+[user]
+	name = Aaron S. Joyner
+	email = aaron@joyner.ws
+[push]
+	default = simple
+[core]
+	editor = /Applications/MacVim.app/Contents/MacOS/Vim
+[diff]
+	tool = newervimdiff
+[merge]
+	tool = newervimdiff
+[difftool]
+	prompt = false
+[difftool "newervimdiff"]
+  cmd = /Applications/MacVim.app/Contents/MacOS/Vim -d \"$LOCAL\" \"$REMOTE\"
