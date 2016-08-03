@@ -20,6 +20,15 @@ set hidden
 " to make use of https://github.com/fatih/vim-go easy
 execute pathogen#infect()
 
+" pathogen setup cheat sheet:
+" mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && \
+" cd ~/.vim/bundle && git clone https://github.com/fatih/vim-go
+" git clone https://github.com/AndrewRadev/splitjoin.vim
+" git clone https://github.com/SirVer/ultisnips
+" 
+" Open Vim and launch :GoInstallBinaries (may have to run it a few times)
+
 let g:go_fmt_command = "goimports"
 let g:go_auto_sameids = 1
 let go_metalinter_autosave = 1
